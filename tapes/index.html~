@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> Tapes</title>
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body class="dark-theme">
+		<div class="buttons">
+			<a href="#home" onclick="homeFunc()">Home</a>
+			<a href="#about" onclick="aboutFunc()">About</a>
+			<div class = "dropdown">
+			<button class="dropbtn" onclick="artistDrop()">Artists
+				<div class="over-triangle"></div>
+			</button>
+			<div id ="artistdrop" class="dropdown-content">
+				<a href="#" onclick="facedFunc()">Faced out</a>
+				<a href="#" onclick="dfcFunc()">Dole's Fruit Company</a>
+				<a href="#" onclick="atdFunc()">...And the Degenerates</a>
+			</div>
+			</div>
+			<div class = "dropdown">
+			<button class="dropbtn" onclick="shopDrop()">Shop
+				<div class ="over-triangle"></div>
+			</button>
+			<div id ="shopdrop" class="dropdown-content">
+				<a href="#" onclick="merchFunc()">Merch</a>
+				<a href="#" onclick="cdFunc()">CDs</a>
+				<a href="#" onclick="tapeFunc()">Tapes</a>
+			</div>
+			</div>
+		</div>
+		<div id="page">
+		<div class="section" id="section1">
+			<div id="text">
+			<h1>Tapes</h1>
+			<p>Fuck you Jasen</p>
+			</div>
+		</div>
+		</div>
+		<script src="app.js"></script>
+		<noscript>You need to enable JavaScript to view the full site.</noscript>
+	</body>
+</html>
