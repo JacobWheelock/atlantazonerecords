@@ -17,9 +17,6 @@ function facedFunc() {
 function dfcFunc() {
 	window.location.replace("../dfc/index.html");
 }
-function atdFunc() {
-	window.location.replace("../degen/index.html");
-}
 function merchFunc() {
 	window.location.replace("../merch/index.html");
 }
@@ -28,6 +25,21 @@ function cdFunc() {
 }
 function tapeFunc() {
 	window.location.replace("../tapes/index.html");
+}
+function restFunc() {
+	window.location.replace("../reststop/index.html");
+}
+function gggFunc() {
+	window.location.replace("../ggg/index.html");
+}
+function joshFunc() {
+	window.location.replace("../josh/index.html");
+}
+function spyFunc() {
+	window.location.replace("../spy/index.html");
+}
+function contactFunc() {
+	window.location.replace("../contact/index.html");
 }
 
 window.onclick = function(event) {

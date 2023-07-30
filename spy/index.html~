@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title> Merch </title>
+		<title> Faced Out </title>
 		<link rel="stylesheet" href="main.css">
 	</head>
 	<body class="dark-theme">
@@ -16,12 +16,9 @@
 				<div class="over-triangle"></div>
 			</button>
 			<div id ="artistdrop" class="dropdown-content">
-				<a href="#faced" onclick="facedFunc()">Faced out</a>
+				<a href="#" onclick="facedFunc()">Faced out</a>
 				<a href="#" onclick="dfcFunc()">Dole's Fruit Company</a>
-				<a href="#" onclick="restFunc()">Reststop Bathroom</a>
-				<a href="#" onclick="gggFunc()">Gorilla gorilla gorilla</a>
-				<a href="#" onclick="joshFunc()">Josh V.</a>
-				<a href="#" onclick="spyFunc()">Spyridia Forum</a>
+				<a href="#" onclick="atdFunc()">...And the Degenerates</a>
 			</div>
 			</div>
 			<div class = "dropdown">
@@ -34,13 +31,11 @@
 				<a href="#" onclick="tapeFunc()">Tapes</a>
 			</div>
 			</div>
-			<a href="#" onclick="contactFunc()">Contact Us!</a>
 		</div>
 		<div id="page">
 		<div class="section" id="section1">
 			<div id="text">
-			<h1>Merch</h1>
-			<p>Buy our shit!</p>
+			<h1>Faced Out</h1>
 			</div>
 		</div>
 		</div>
