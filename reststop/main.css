@@ -140,3 +140,15 @@ canvas {
 	display:inline-table;
 	top: -3px;
 }
+#desc {
+	width:90%;
+}
+#pic {
+	width:99%;
+	height:99%;
+	display:flex;
+	justify-content: center;
+}
+#picSec {
+	width:40%;
+}

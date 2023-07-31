@@ -28,7 +28,11 @@ h1 {
 p {
 	text-align:center;
 	font-size:20px;
+	
 
+}
+#desc {
+	width:90%;
 }
 .section {
 	position:relative;
@@ -42,14 +46,7 @@ p {
 	align-items:center;
 	align-self:center;
 }
-#text {
-	height:100%;
-	flex:1.5;
-	display:flex;
-	margin:auto auto;
-	flex-direction:column;
-	justify-content:space-between;
-}
+
 .dark-theme {
 	--bg: var(--back);
 	--fontColor: var(--ptext);
@@ -139,4 +136,32 @@ canvas {
 	position:relative;
 	display:inline-table;
 	top: -3px;
+}
+#pic {
+	width:99%;
+	height:99%;
+	display:flex;
+	
+}
+#picSec {
+	width:53%;
+}
+
+.small {
+	position:relative;
+	width:25%;
+	height:40%;
+	cursor:pointer;	
+}
+#text {
+	display:flex;
+	flex-direction: row;
+	justify-content: unset;
+}
+
+#smallLogos {
+	display: flex;
+	align-content: center;
+	align-items:center;
+	justify-content:center;
 }

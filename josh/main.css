@@ -140,3 +140,6 @@ canvas {
 	display:inline-table;
 	top: -3px;
 }
+#desc {
+	width:90%;
+}
