@@ -20,13 +20,21 @@ html, body {
 	width:100%;
 	display:flex;
 	flex-direction:column;
+	
+	
+}
+#page2 {
+	height:100%;
+	width:100%;
+	display:flex;
+	flex-direction:row;
 }
 h1 {
 	text-align:center;
 	font-size:3vw;
 }
 p {
-	text-align:center;
+	text-align:justify;
 	font-size:20px;
 	
 
@@ -137,6 +145,21 @@ canvas {
 	display:inline-table;
 	top: -3px;
 }
+
+.sectionPic {
+	position:relative;
+	background: var(--botgrad);
+	border-radius:25px;
+	width:80%;
+	margin-top:3%;
+	padding: 10px 10px;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+	align-self:center;
+}
+
 #pic {
 	width:99%;
 	height:99%;
@@ -144,14 +167,23 @@ canvas {
 	
 }
 #picSec {
-	width:53%;
+	width:60%;
+}
+#picText {
+	width:65%;
+	margin:auto;
+	
 }
 
 .small {
 	position:relative;
-	width:25%;
-	height:40%;
-	cursor:pointer;	
+	width:15%;
+	height:65%;
+	cursor:pointer;
+	margin-left:4%;
+	margin-right: 4%;
+	margin-top:5%;
+	
 }
 #text {
 	display:flex;
@@ -162,6 +194,16 @@ canvas {
 #smallLogos {
 	display: flex;
 	align-content: center;
-	align-items:center;
-	justify-content:center;
+	justify-content: center;
+	
+}
+
+#albums {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#s4 {
+	width:60%;
+	
 }
