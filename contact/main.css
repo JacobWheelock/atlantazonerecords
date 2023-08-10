@@ -19,7 +19,12 @@ html, body {
 	height:100%;
 	width:100%;
 	display:flex;
-	justify-content:center;
+	flex-direction: column;
+	align-items: center;
+}
+
+#section2 {
+	width:800px;
 }
 h1 {
 	text-align:center;
@@ -141,3 +146,4 @@ canvas {
 	display:inline-table;
 	top: -3px;
 }
+

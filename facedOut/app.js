@@ -14,6 +14,24 @@ function shopDrop() {
 function facedFunc() {
 	window.location.replace("../facedOut/index.html");
 }
+function facedSpotFunc() {
+	window.open("https://open.spotify.com/artist/2xA2XNU0Uxh2JMClKRaisr?si=o3xmO3y8Q3ywfMZ1xpwQMQ");
+}
+function facedBCFunc() {
+	window.open("https://facedout.bandcamp.com");
+}
+function facedAMFunc() {
+	window.open("https://music.apple.com/us/artist/faced-out/1593966590");
+}
+function facedOutAlb() {
+	window.open("https://facedout.bandcamp.com/album/faced-out");
+}
+function split() {
+	window.open("https://facedout.bandcamp.com/album/split-in-my-mouth");
+}
+function golden() {
+	window.open("https://facedout.bandcamp.com/album/goldenrods-sprouting-from-the-cracks-in-your-driveway");
+}
 function dfcFunc() {
 	window.location.replace("../dfc/index.html");
 }
