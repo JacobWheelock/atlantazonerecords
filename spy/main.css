@@ -9,6 +9,8 @@
 html, body {
 	margin: 0px;
 	background: var(--bg);
+	background-image: url("static.gif");
+	background-size: cover;
 	color: var(--fontColor);
 	font-family: helvetica;
 	overflow:auto;
@@ -26,13 +28,16 @@ h1 {
 	font-size:3vw;
 }
 p {
-	text-align:center;
+	text-align:justify;
 	font-size:20px;
 
 }
+
+
+
 .section {
 	position:relative;
-	background: var(--botgrad);
+	background: var(--back);
 	border-radius:25px;
 	width:80%;
 	margin-top:3%;
@@ -142,4 +147,11 @@ canvas {
 }
 #desc {
 	width:90%;
+}
+#section1 {
+	width: 275px;
+	height: 200px;
+}
+#section2 {
+	width:500px;
 }
