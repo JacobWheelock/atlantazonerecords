@@ -41,6 +41,14 @@ function spyFunc() {
 function contactFunc() {
 	window.location.replace("../contact/index.html");
 }
+
+function orderFunc() {
+	var popup = document.getElementById("myPopup");
+	var shade = document.getElementById("myDark");
+    popup.classList.toggle("show");
+	shade.classList.toggle("show");
+}
+
 window.onclick = function(event) {
 	if (!event.target.matches('.dropbtn')) {
 		var dropdowns = document.getElementsByClassName("dropdown-content");
