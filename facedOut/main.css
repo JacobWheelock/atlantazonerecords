@@ -37,6 +37,7 @@ p {
 	text-align:justify;
 	font-size:20px;
 	
+	
 
 }
 #desc {
@@ -161,13 +162,13 @@ canvas {
 }
 
 #pic {
-	width:99%;
-	height:99%;
+	
 	display:flex;
 	
 }
 #picSec {
 	width:60%;
+
 }
 #picText {
 	width:65%;

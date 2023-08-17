@@ -129,7 +129,6 @@ a:visited {
 }
 .show {display:block}
 .buttons {
-	overflow:hidden;
 	width: 100%;
 	z-index:5;
 	background-color: var(--botgrad);
@@ -137,6 +136,7 @@ a:visited {
 	top:0;
 	display:flex;
 	justify-content:center;
+	overflow: auto;
 }
 
 canvas {
