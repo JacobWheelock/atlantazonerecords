@@ -146,3 +146,12 @@ canvas {
 #desc {
 	width:90%;
 }
+#s4 {
+	width:20%;
+
+}
+#albums {
+	display:flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 10px;
