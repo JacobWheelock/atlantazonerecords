@@ -21,7 +21,7 @@ html, body {
 	display:flex;
 	flex-direction:column;
 	background-image: url("gorillas.jpg");
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	background-size: cover;
 }
 h1 {
@@ -84,7 +84,7 @@ p {
 }
 
 .dropdown .dropbtn {
-	width: 200px;	
+	width: 200px;
 	padding: 15px 10px;
 	text-align: center;
 	text-decoration: none;
