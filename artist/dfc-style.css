@@ -1,0 +1,13 @@
+body{
+      background-image: url("assets/cicada-doles.gif");
+      background-repeat: no-repeat;
+      background-position: fixed;
+      background-position: center;
+      background-size: cover;
+}
+
+@media (max-width: 520px) {
+.navbar{
+  padding: 50px;
+}
+}

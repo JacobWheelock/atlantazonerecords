@@ -1,0 +1,121 @@
+html{
+  background-color: black;
+}
+
+body {
+    font-family: IBM Plex Mono, Arial, sans-serif;
+    /* background-color: #8B0A0A; */
+    min-height:95vh;
+    background-image: url("../blue-hands.gif");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.metal{
+  font-family: Metal Mania, Arial, sans-serif;
+}
+
+.navbar {
+  max-width: 80%;
+  margin: 0 0;
+  top:0;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width:100%;
+  left:10%;
+}
+.body-content p{
+  color: white;
+  width: 80%;
+  text-align: center;
+  font-size: 200%;
+}
+
+ a{
+   color: white;
+ }
+
+.page-header{
+  z-index: 100;
+}
+h1 {
+    font-size: 800%;
+    color:white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+
+footer{
+  text-align: center;
+  color:white;
+  margin-top: 100px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-right: 20px;
+  align-items: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+#artists-list{
+  font-size: 200%;
+}
+#artists-list li{
+  list-style: none;
+  margin-left: -45px;
+  margin-bottom: 25px;
+}
+@media (max-width: 768px) {
+  h1{
+    font-size: 500%;
+  }
+  .body-content p{
+    font-size: 130%;
+  }
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-wrap: wrap;
+  }
+  nav li {
+    margin-bottom: 10px;
+  }
+  .navbar{
+    left:0px;
+    background-color: black;
+  }
+  body{
+    background-size: auto;
+  }
+}
+@media (max-width: 490px) {
+.page-header{
+  margin-top:100px;
+}
+}

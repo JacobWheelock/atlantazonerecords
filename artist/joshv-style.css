@@ -1,0 +1,7 @@
+body{
+      background-image: url("assets/josh_banner.png");
+      background-repeat: no-repeat;
+      background-position: fixed;
+      background-position: center;
+      background-size: cover;
+}
