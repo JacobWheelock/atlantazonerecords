@@ -106,9 +106,13 @@ nav a:hover {
   body{
     background-size: auto;
   }
+  center p{
+    font-size: 100% !important;
+  }
 }
 @media (max-width: 490px) {
 .page-header{
   margin-top:100px;
 }
+
 }
