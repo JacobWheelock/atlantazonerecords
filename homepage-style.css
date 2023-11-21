@@ -87,6 +87,7 @@ nav a:hover {
 }
 @media (max-width: 768px) {
   h1{
+    padding-top: 20%;
     font-size: 500%;
   }
   nav {
