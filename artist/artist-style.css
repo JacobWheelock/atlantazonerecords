@@ -18,7 +18,7 @@ body {
   font-family: Metal Mania, Arial, sans-serif;
 }
 
-.navbar {
+/* .navbar {
   max-width: 80%;
   margin: 0 0;
   top:0;
@@ -27,6 +27,15 @@ body {
   position: fixed;
   width:100%;
   left:10%;
+} */
+.navbar li{
+  color: white;
+  background-color:black;
+}
+
+
+.navbar li a{
+  font-size: 150%;
 }
 .body-content p{
   color: white;
