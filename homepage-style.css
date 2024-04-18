@@ -13,6 +13,7 @@ body {
     background-position: fixed;
     background-position: center;
     background-size: cover;
+    cursor: url('nat302.cur'), auto;
 }
 .metal{
   font-family: Metal Mania, Arial, sans-serif;
