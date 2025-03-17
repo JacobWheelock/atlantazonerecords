@@ -19,8 +19,7 @@ body {
   font-family: Metal Mania, Arial, sans-serif;
 }
 
-.navbar {
-  max-width: 80%;
+/* .navbar {
   margin: 0 0;
   top:0;
   color: white;
@@ -28,7 +27,7 @@ body {
   position: fixed;
   width:100%;
   left:10%;
-}
+} */
 
 
  a{
@@ -90,9 +89,6 @@ nav a:hover {
   h1{
     padding-top: 20%;
     font-size: 500%;
-  }
-  nav {
-    flex-direction: column;
   }
   nav ul {
     flex-wrap: wrap;
