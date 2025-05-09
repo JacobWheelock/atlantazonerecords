@@ -17,6 +17,7 @@ body {
 }
 .metal{
   font-family: Metal Mania, Arial, sans-serif;
+  color: rgb(197, 194, 175);
 }
 
 /* .navbar {
@@ -31,7 +32,9 @@ body {
 
 
  a{
-   color: white;
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px 200px rgb(179, 175, 152);
+
  }
 
 .page-header{
@@ -41,7 +44,9 @@ h1 {
     font-size: 800%;
     color:white;
     text-align: center;
-    text-shadow: 2px 2px 2px black;
+    /* text-shadow: 2px 2px 2px black; */
+    text-shadow: 2px 2px white;
+    text-shadow: 1px 1px 200px rgb(179, 175, 152);
 
 }
 
@@ -64,7 +69,8 @@ nav ul {
 nav li {
   margin-right: 20px;
   align-items: center;
-  text-shadow: 2px 2px 2px black;
+  /* text-shadow: 2px 2px 2px black; */
+  text-shadow: 1px 1px 20px rgb(179, 175, 152);
 }
 
 nav a {
@@ -78,7 +84,8 @@ nav a:hover {
 }
 
 #artists-list{
-  font-size: 200%;
+  font-size: 170%;
+  text-shadow: 1px 1px 200px rgb(179, 175, 152);
 }
 #artists-list li{
   list-style: none;
