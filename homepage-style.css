@@ -22,7 +22,7 @@ p :hover, li :hover,.page-header :hover, td :hover{
 }
 
 h1{
-  text-shadow: 10px 10px 10px red !important;
+  text-shadow: 10px 10px 10px red, -3px -3px 10px blue !important;
 }
 /* li :hover{
   font-style: italic;
@@ -213,7 +213,6 @@ caption {
   text-align: right;
   letter-spacing: 1px;
 }
-
 
 
 @media (max-width: 768px) {
