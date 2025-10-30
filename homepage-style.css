@@ -14,6 +14,7 @@
 
 html{
   background-color: black;
+  cursor: url('nat302.cur'), auto;
 }
 
 p :hover, li :hover,.page-header :hover, td :hover{
@@ -31,12 +32,13 @@ body {
     font-family: IBM Plex Mono, Arial, sans-serif;
     /* background-color: #8B0A0A; */
     min-height:95vh;
-    background-image: url("blue-hands.gif");
+    background-image: url("blue-hands.webp");
     background-repeat: no-repeat;
-    background-position: fixed;
+    /* background-position: fixed; */
     background-position: center;
     background-size: cover;
-    cursor: url('nat302.cur'), auto;
+    text-shadow: 1px 1px 20px rgb(179, 175, 152);
+
 }
 
 .metal{
@@ -58,8 +60,6 @@ body {
 
  a{
    color: rgb(255, 255, 255);
-   /* text-shadow: 1px 1px 200px rgb(179, 175, 152); */
-
  }
 
 .page-header{
@@ -69,7 +69,6 @@ h1 {
     font-size: 800%;
     color:white;
     text-align: center;
-    /* text-shadow: 2px 2px 2px black; */
     text-shadow: 2px 2px white;
     text-shadow: 1px 1px 200px rgb(179, 175, 152);
 
@@ -94,7 +93,6 @@ nav ul {
 nav li {
   margin-right: 20px;
   align-items: center;
-  /* text-shadow: 2px 2px 2px black; */
   text-shadow: 1px 1px 20px rgb(179, 175, 152);
 }
 
@@ -110,7 +108,6 @@ nav a:hover {
 
 #artists-list{
   font-size: 170%;
-  text-shadow: 1px 1px 200px rgb(179, 175, 152);
 }
 #artists-list li{
   list-style: none;
