@@ -41,6 +41,10 @@ body {
 
 }
 
+.bullshit{
+  display:none;
+}
+
 .metal{
   font-family: Metal Mania, Arial, sans-serif;
   font-weight: 2px;
