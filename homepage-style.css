@@ -12,6 +12,13 @@
   /* font-style: normal; */
 }
 
+@font-face {
+  font-family: 'ActUp';
+  src: url('/MotherNatureisaLesbian-Regular.otf') format('opentype');
+  font-weight: normal;
+  /* font-style: normal; */
+}
+
 html{
   background-color: black;
   cursor: url('nat302.cur'), auto;
